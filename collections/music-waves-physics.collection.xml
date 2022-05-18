@@ -1,0 +1,15 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10341</md:content-id>
+    <md:title>Music, Waves, Physics</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>22921da0-cb15-45c2-9a21-dc87b9b18fe1</md:uuid>
+<md:slug>music-waves-physics</md:slug>
+</metadata>
+  <col:content>
+    <col:module document="m13512"/>
+    <col:module document="m13513"/>
+    <col:module document="m13514"/>
+  </col:content>
+</col:collection>

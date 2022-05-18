@@ -1,0 +1,23 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Understanding Wave Jargon; Building Waves on Strings Intuition</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>7008dd5c-32fa-4c4f-89d9-9b6fb26a8255</md:uuid>
+</metadata>
+  <content>
+    <para id="delete_me">If you are unfamiliar with the terms <term>frequency</term>, <term>wavelength</term> and <term>amplitude</term> and how they relate to pitch, we recommend you read and follow the exercises at <link document="m13512">Talking about Sound and Music</link> and <link document="m11060">Frequency, Wavelength, and Pitch</link>.
+
+</para><para id="element-221">Click on the word: <link url="http://phet.colorado.edu/simulations/stringwave/stringWave.swf">Animation</link> to visit a great animation created by the PhET Project at the University of Colorado
+
+</para><para id="element-412">There are many interesting concepts and exercises to be done with the above animation.  We will leave most of it to the user to explore the various concepts of waves on a string, but we will provide a few suggestions and observations to make.</para><list id="element-859" list-type="enumerated"><item>Wiggle the free end.  See how the beads move together like a string or piece of rope.  Now decrease the tension.  What happens to the as you wiggle it?</item>
+	<item>Put the tension back to high.  Now increase the damping to the 1.  What do you observe happening now?  In real life, what often causes damping?  </item>
+	<item>Bring the tension down to 0.  What do you observe now? Since most theory deals with ideal and lossless strings, leave the damping at 0.</item>
+
+<item>Now create a pulse by quickly wiggling the free end of the string up and then down.  What happens now?  When the pulse/wave hits the fixed end, what happens to the pulse?  We typically call the pulse that returns the reflected wave.  Does the reflected wave stay upright or flip?</item>
+
+<item>Now increase the damping back to 0.5.  Click on the "Loose End" option.  The clamp should now be replaced by a ring and rod.  Perform the same exercises as the previous points.  How does having a loose end affect the reflected wave.  </item>
+
+<item>Now click on the "No End" option.  Notice how the rod is replaced by a window.  At this point, the string is considered infinite, meaning the string continues forever out the window.  What is a consequence of having such a string?  What does the reflected pulse look like?  Is there a reflected pulse?</item>
+
+<item>Play around with the other features of this animation.  For example, click on the "Oscillate" button.  What happens now?  What can you do with the free end oscilating that you could not previously do?</item></list>   
+  </content>
+  
+</document>

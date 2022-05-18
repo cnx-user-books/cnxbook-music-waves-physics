@@ -1,0 +1,67 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Another way of viewing the world</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>9d10dbd4-b95d-45dd-8e70-4c68b868c681</md:uuid>
+</metadata>
+  <content>
+    <para id="delete_me">Up to this point, we have mainly focussed on waves as a function of time.  Now what do we mean by a function of time?  Well, in <link document="m13513">Understanding Wave Jargon; Building Waves on Strings Intuition</link>, wiggling the end of the string affected how the rest of the string responded in time.  In other words, we are used to seeing everything as causal because our actions have consequences that we observe.  If I eat too much, I get a stomache ache an hour later.  If my ears are ringing, it wouldn't be surprising if I had just come out of a rock conert.  
+</para><para id="element-917">Well, another way of seeing events is in the frequency domain.  Now what does this mean?  As described in <link document="m13512">Talking about Sound and Music</link> and <link document="m11060">Frequency, Wavelength, and Pitch</link>, frequency is the number of times a wave occurs per second.  However, the concept of frequency does not have to apply to just waves.  It can apply to any event, observation, or even concept that occurs multiple times.  For example, one can say that the sun rises at a frequency of once per day.  One can also say that in each year, a season changes once every three months.  </para><para id="element-60">Now why should you care?  What possible relevance does this have to your daily life?  Well, as discussed in <link document="m13512">Talking about Sound and Music</link>, pitches that our ear hears correspond to waves; and since waves have a regularity of repeating itself, all pitches that we hear have frequencies associated with them.  Note that the pitches we hear do not necessarily correspond to one frequency.  For example, when you strike a string on a guitar, you hear not waves of a single frequency, but the sum of many waves with differing frequencies.  However, when striking the strings of an instrument or blowing into a wind instrument, the frequencies that the resulting sound/wave has, is not accidental or random.  There is a theory/pattern behind it, but we will not delve into that at this point.</para><para id="element-200">Since the pitches we hear in music typically have flavor to them, in musical terms, differing timbre, (ie. the different sound we hear when playing the same pitch on a guitar and clarinet), most of this phenomenon corresponds to differing spectrograms (graphs of the frequency domain).  
+
+To solidify this concept, we will provide a few sound examples and their corresponding spectrograms.  Don't worry, there'll be plenty of explanation.  </para><para id="element-921">Below, I have provided two recordings.  One is a recording of me striking the 'A' string of my guitar.  The other is a recording of striking the high 'E' string of my guitar.</para>
+    <section id="a-string-example">
+    <title>Plucking the 'A' String of a Guitar</title>
+
+<figure id="element-772"><media id="idp8612176" alt=""><flash src="note_a_animation.swf" mime-type="application/x-shockwave-flash" height="550" width="400"/></media>
+	  <caption>Flash animation of the following figures</caption></figure><para id="element-4"><figure id="guitar_a_time" orient="horizontal"><title>Plot of the sound signal versus time</title>
+          <media id="idp14024624" alt=""><image src="../../media/guitar_A_220hz_time.png" mime-type="image/png"/></media>
+          <caption>
+          The plot of the guitar plucked at the 'A' string over time.
+          </caption>
+</figure></para><figure id="element-891"><title>Zoomed in graph of the signal versus time</title>
+          <media id="idp13951952" alt=""><image src="../../media/guitar_A_220hz_time_zoom.png" mime-type="image/png"/></media>
+          <caption>
+            The zoomed-in plot of the guitar plucked at the 'A' string over time.            
+          </caption>
+</figure><para id="element-708">There are a few things to note.  In Figure 2, we notice that the sound peaks as it is struck and decays to zero close to 8 seconds.  This should resonate well with your intuition from hearing the sound file.  
+
+Now in Figure 3, you'll notice that there are patterns to the signal heard.  Furthermore, you'll also notice that there is not just one wave of a single frequency, but that you can eyeball several waves.  For example, there is the large wave that has higher signal than other parts of the wave, as there also appears to be a cross of two waves with higher frequencies in the signal.  </para><para id="element-88">From this type of observation, a whole slew of theory and algorithms have been developed to characterize such behavior.  By taking the <term>Fourier Transform</term> of our sound file, we can see what frequencies make up the signal.  Another way of thinking about it, the sound file can be decomposed as the sum of waves of differing frequencies, and the <term>Fourier Transform</term> provides a way of seeing the sound file in the time domain, as in Figures 2 and 3, to the frequency domain shown below in Figure 4.</para><figure id="element-830"><title>Spectrogram of Figure 1's sound file</title>
+          <media id="idp7176592" alt=""><image src="../../media/guitar_A_220hz.png" mime-type="image/png"/></media>
+          <caption>
+            Spectrogram (Frequency Domain) plot of the sound file corresponding to plucking of the guitar A string.     
+          </caption>
+ 
+</figure><para id="element-878">The spectrogram shows us how the signal can be broken down into an infinite sum of waves with different frequencies.  As Figure 4 shows, the most dominant frequency occurs at about 220Hz.  This corresponds to the second harmonic of the signal.  The fundamental frequency being 110Hz, which is correct, since the 'A' string of the guitar should be tuned to 110Hz.  Apparently the guitar was in tune when the recording was made.  Furthermore, you will also notice other dominant waves with frequencies of about 330Hz and 440Hz.  Of the musicians out there reading this, this makes sense since 330Hz corresponds to an 'E' which would be the fifth of the 'A' and the third harmonic to the 'A' at 110Hz.  But the take away message from these figures is that there are two ways of seeing the same phenomenon of the recorded sound file.  One is to simply plot the resulting signal versus time.  Another is to view the same signal and its spectrogram, or rather, what frequency components make up the sound file.</para>
+
+</section>
+
+<section id="e-string-example">
+    <title>Plucking the 'E' String of a Guitar</title>
+<figure id="element-717"><media id="idp1002448" alt=""><flash src="note_e_animation.swf" mime-type="application/x-shockwave-flash" height="550" width="400"/></media>
+	  <caption>Flash animation of the following figures</caption></figure><para id="element-786">Similar to plucking the guitar's 'A' string, here we provide the same graphs but for the sound file in Figure 5. 
+
+</para><figure id="element-42"><title>Plot of the sound signal versus time</title>
+          <media id="idp11355392" alt=""><image src="../../media/guitar_E_330hz_time.png" mime-type="image/png"/></media>
+          <caption>
+          The plot of the guitar plucked at the 'E' string over time.
+          </caption>
+</figure><figure id="element-693"><title>Zoomed in graph of the signal versus time</title>
+          <media id="idp512064" alt=""><image src="../../media/guitar_E_330hz_time_zoom.png" mime-type="image/png"/></media>
+          <caption>
+            The zoomed-in plot of the guitar plucked at the 'E' string over time.            
+          </caption>
+    </figure><para id="element-523">Let's point out some differences between Figures 2 and 6.  Notice that in Figure 2, the signal decays to 0 a couple of seconds after the signal in Figure 6.  Also notice that in Figure 7, the spacing between the oscillations of the signal is smaller than those in Figure 3.  </para><para id="element-23">Also, again notice that in Figure 7, the zoomed-in graph of the signal versus time, there are recurring patterns in the signal.  See if you can convince yourself that the signal can be described as the sum of waves with differing frequencies. </para><figure id="element-906"><title>Spectrogram of Figure 5's sound file</title>
+          <media id="idp550624" alt=""><image src="../../media/guitar_E_330hz.png" mime-type="image/png"/></media>
+          <caption>
+            Spectrogram (Frequency Domain) plot of the sound file corresponding to plucking of the guitar's high E string.     
+          </caption>
+ 
+</figure><para id="element-81">Figure 8 shows the spectrogram of the sound file in Figure 5.  The dominant peak occurs at 330Hz, which from our previous discussion is not surprising.  The high 'E' string of a guitar should be tuned to 330Hz.  </para><para id="element-161">However, there are some differences to note between Figures 4 and 8.  The spectrogram in Figure 8 has less prominent peaks.  Between 200 and 300Hz, there seems to be a lump of frequencies that our sound wave has.  One of the reasons the spectrum is not as "clean" as the one in Figure 4, is because the high E string causes the lower strings on the guitar to vibrate.  Thus one sees lumps in the spectrogram below the fundamental frequency of 330Hz as well as the harmonics of the frequencies of the lower strings.</para>
+</section>
+<section id="extra-readings">
+    <title>Extra Readings</title>
+<para id="element-532">For more information on the algorithm/procedure that takes you to/from the frequency domain, <link document="m0046">Derivation of the Fourier Transform
+</link> and <link document="m10783">The Fast Fourier Transform (FFT)
+</link> are good mathematical sources.  </para>   
+</section>
+  </content>
+  
+</document>
